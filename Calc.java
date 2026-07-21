@@ -23,7 +23,7 @@ public class Calc{
           System.out.println("Enter 2nd number: ");
           two=sc.nextInt();
           result=one + two;
-          system.out.println("RESULT : "+ result);
+          System.out.println("RESULT : "+ result);
           break;
   
         case 2:
@@ -32,7 +32,7 @@ public class Calc{
           System.out.println("Enter 2nd number: ");
           two=sc.nextInt();
           result=one - two;
-          system.out.println("RESULT : "+ result);
+          System.out.println("RESULT : "+ result);
           break;
         
         case 3:
@@ -41,7 +41,7 @@ public class Calc{
           System.out.println("Enter 2nd number: ");
           two=sc.nextInt();
           result=one * two;
-          system.out.println("RESULT : "+ result);
+          System.out.println("RESULT : "+ result);
           break;
   
         case 4:
@@ -50,7 +50,7 @@ public class Calc{
           System.out.println("Enter 2nd number: ");
           two=sc.nextInt();
           result=one / two;
-          system.out.println("RESULT : "+ result);
+          System.out.println("RESULT : "+ result);
           break;
         
         case 5:
@@ -58,7 +58,7 @@ public class Calc{
           break;
         
         default:
-          system.out.println("Invalid Choice");
+          System.out.println("Invalid Choice");
           break;
         
       }
